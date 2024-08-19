@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- ICONS LINKS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <!-- WEB ICON -->
+    <link rel="icon" href="/img/nav/l-new.png" />
+
+    <title>Online Learning | Learnify Business</title>
+  </head>
+  <body>
+    <!-- SECTION NAV -->
+    <section class="section-nav">
+      <nav class="nav-container">
+        <a href="#" class="nav-logo-block"
+          ><img
+            class="nav-logo"
+            src="/img/nav/Learnify-t.png"
+            alt="learnify-logo"
+        /></a>
+        <ul class="links-list">
+          <li><a class="nav-link" href="#what-do">What we do</a></li>
+          <li><a class="nav-link" href="#why-us">Why us?</a></li>
+          <li><a class="nav-link" href="#features">Our features</a></li>
+          <li><a class="nav-link" href="#plans">Plans</a></li>
+          <a class="nav-lan" href="#">
+            <img
+              class="usa-flag"
+              src="/img/nav/usa-flag.png"
+              alt="usa-flag-icon"
+            />
+            <ion-icon class="lan-icon" name="caret-down-sharp"></ion-icon>
+          </a>
+        </ul>
+
+        <div class="nav-cta">
+          <a class="login-btn cta-link-nav" href="#">Login</a>
+          <a class="cta-btn cta-link-nav" href="#start-here">Start Here</a>
+        </div>
+
+        <!-- MOBILE DROPDOWN (created using Gemeni) -->
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <a href="#" class="nav-logo-block nav-logo-mobile"
+              ><img
+                class="nav-logo"
+                src="/img/nav/Learnify-t.png"
+                alt="learnify-logo"
+            /></a>
+            <ion-icon size="large" class="dropdown-icon" name="menu"></ion-icon>
+          </button>
+          <ul class="dropdown-content">
+            <li><a href="#what-do">What we do</a></li>
+            <li><a href="#why-us">Why us?</a></li>
+            <li><a href="#features">Our features</a></li>
+            <li><a href="#plans">Plans</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- SECTION HERO -->
+    <section class="section-hero">
+      <div class="background">
+        <header class="hero-container">
+          <div class="text-container">
+            <h1 class="hero-prime-header">
+              <span>Empower</span> Your Team With Learnify.
+            </h1>
+            <h3 class="hero-sub-header">
+              Unlock your team's potential with Learnify's tailored training
+              solutions.
+            </h3>
+
+            <div class="hero-cta">
+              <a class="trial-cta" href="#">Free Trial</a>
+              <a class="more-cta" href="#">Learn More</a>
+            </div>
+          </div>
+        </header>
+      </div>
+    </section>
+
+    <!-- SECTION COMPANIES -->
+    <section class="section-companies">
+      <div class="page-container less-topBottomPadding-container">
+        <div class="headers-container">
+          <h2 class="prime-header color-white">
+            Collaborating with Industry Giants
+          </h2>
+          <h3 class="sub-header color-white">
+            Shaping the future, together with industry leaders.
+            <a class="company-link" href="#">Learn more.</a>
+          </h3>
+        </div>
+        <div class="logos">
+          <img
+            class="logo"
+            src="/img/companies/aflac-logo-white.svg"
+            alt="aflac-logo"
+          />
+          <img
+            class="logo"
+            src="/img/companies/fender-logo-white.svg"
+            alt="fender-logo"
+          />
+          <img
+            class="logo"
+            src="/img/companies/mattel-logo-white.svg"
+            alt="mattel-logo"
+          />
+          <img
+            class="logo"
+            src="/img/companies/tcs-logo-white.svg"
+            alt="tcs-logo"
+          />
+          <img
+            class="logo"
+            src="/img/companies/vimeo-logo-white-01.svg"
+            alt="vimeo-logo"
+          />
+          <img
+            class="logo"
+            src="/img/companies/volkwagon-logo-white.svg"
+            alt="volkwagon-logo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION VALUES -->
+    <section class="section-values" id="what-do">
+      <div class="page-container">
+        <div class="headers-container">
+          <h2 class="prime-header">Why Choose Learnify for Your Business?</h2>
+          <h3 class="sub-header">
+            Fuel your team's success with our personalized learning approach.
+          </h3>
+        </div>
+        <div class="values-container">
+          <div class="illu-box">
+            <img
+              class="illu"
+              src="/img/value-proposition/undraw_creative_team_re_85gn.svg"
+              alt="illustration"
+            />
+          </div>
+          <div class="value">
+            <h2 class="num-value">1</h2>
+            <h3 class="value-header">Cultivate a High-Performing Workforce</h3>
+            <ul class="values-list">
+              <li class="value-item">
+                Support employees throughout their career journey for optimal
+                growth.
+              </li>
+              <li class="value-item">
+                Invest in employee development to boost performance and
+                engagement.
+              </li>
+              <li class="value-item">
+                Build a future-ready workforce capable of navigating change and
+                driving business success.
+              </li>
+            </ul>
+            <a class="value-cta" href="#"
+              >Learn more<ion-icon name="chevron-forward-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="value">
+            <h2 class="num-value">2</h2>
+            <h3 class="value-header">Empower Your Technology Talent</h3>
+            <ul class="values-list">
+              <li class="value-item">
+                Advance technical skills to maintain a competitive edge.
+              </li>
+              <li class="value-item">
+                Prepare employees for certifications and digital transformation
+                leadership.
+              </li>
+              <li class="value-item">
+                Keep tech talent current and engaged for long-term success.
+              </li>
+            </ul>
+            <a class="value-cta" href="#"
+              >Learn more<ion-icon name="chevron-forward-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="illu-box second-illu">
+            <img
+              class="illu"
+              src="/img/value-proposition/undraw_solution_mindset_re_57bf.svg"
+              alt="illustration"
+            />
+          </div>
+          <div class="illu-box">
+            <img
+              class="illu"
+              src="/img/value-proposition/undraw_react_re_g3ui.svg"
+              alt="illustration"
+            />
+          </div>
+          <div class="value">
+            <h2 class="num-value">3</h2>
+            <h3 class="value-header">Develop Exceptional Leaders</h3>
+            <ul class="values-list">
+              <li class="value-item">
+                Align leadership teams with organizational goals and strategies.
+              </li>
+              <li class="value-item">
+                Equip leaders with tools to inspire and motivate hybrid teams.
+              </li>
+              <li class="value-item">
+                Foster a culture of trust, inclusion, and collaboration.
+              </li>
+            </ul>
+            <a class="value-cta" href="#"
+              >Learn more<ion-icon name="chevron-forward-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="value">
+            <h2 class="num-value">4</h2>
+            <h3 class="value-header">Partner for Learning Success</h3>
+            <ul class="values-list">
+              <li class="value-item">
+                Collaborate to create a measurable impact on business
+                performance.
+              </li>
+              <li class="value-item">
+                Optimize learning investments through strategic partnerships.
+              </li>
+              <li class="value-item">
+                Leverage expert guidance to achieve desired learning outcomes.
+              </li>
+            </ul>
+            <a class="value-cta" href="#"
+              >Learn more<ion-icon name="chevron-forward-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="illu-box forth-illu">
+            <img
+              class="illu"
+              src="/img/value-proposition/undraw_team_effort.svg"
+              alt="illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONY SECTION -->
+    <section class="section-testimony" id="why-us">
+      <div class="page-container .less-topBottomPadding-container">
+        <div class="testimony-container">
+          <img
+            class="testimony-logo"
+            src="/img/testimony/white-pinterest-logo-png.png"
+            alt="comnpany-ceo-recommend-on-learnify"
+          />
+          <div class="testimony">
+            <div>
+              <img
+                class="quotes-testimony"
+                src="/img/testimony/quotes-double-color.svg"
+                alt="double-quotes"
+              />
+              <p class="testimony-text">
+                Learnify has been a game-changer for our team. Their
+                comprehensive training solutions and engaging learning platform
+                have helped us upskill our workforce and achieve significant
+                performance improvements.
+              </p>
+            </div>
+            <div class="ceo-box">
+              <img
+                class="testimony-ceo"
+                src="/img/testimony/uifaces-human-image.jpg"
+                alt="ceo-recommend-on-learnify"
+              />
+              <div class="ceo-details">
+                <p class="ceo-name">John Smith</p>
+                <p class="ceo-position">
+                  <span>CEO,</span>Pinterst Corporation
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section-skills" id="features">
+      <div class="page-container">
+        <div class="headers-container">
+          <h2 class="prime-header">Comprehensive Learning Ecosystem</h2>
+          <h3 class="sub-header">
+            Your one-stop solution for all employee development needs.
+          </h3>
+        </div>
+        <div class="key-skills-container">
+          <div class="skill">
+            <img
+              class="skill-icon"
+              src="/img/key-skills/learn-dev-icon.svg"
+              alt="learn-skill-icon"
+            />
+            <div class="skill-text-box">
+              <h4 class="skill-title">Learning & Development</h4>
+              <p class="skill-text">
+                Empower your entire workforce with a diverse range of global
+                expertise and innovative learning formats.
+              </p>
+            </div>
+            <a class="skill-cta" href="#">Discover More</a>
+          </div>
+
+          <div class="skill">
+            <img
+              class="skill-icon"
+              src="/img/key-skills/human-icon.svg"
+              alt="human-skill-icon"
+            />
+            <div class="skill-text-box">
+              <h4 class="skill-title">Human Resources</h4>
+              <p class="skill-text">
+                Equip your HR team with the essential tools and knowledge to
+                attract, develop, and retain top talent.
+              </p>
+            </div>
+            <a class="skill-cta" href="#">Discover More</a>
+          </div>
+
+          <div class="skill">
+            <img
+              class="skill-icon"
+              src="/img/key-skills/engineer-icon.svg"
+              alt="engineer-skill-icon"
+            />
+            <div class="skill-text-box">
+              <h4 class="skill-title">Engineering</h4>
+              <p class="skill-text">
+                Enhance technical proficiency and stay at the forefront of
+                industry trends with hands-on training and practical experience.
+              </p>
+            </div>
+            <a class="skill-cta" href="#">Discover More</a>
+          </div>
+
+          <div class="skill">
+            <img
+              class="skill-icon"
+              src="/img/key-skills/it-ops-icon.svg"
+              alt="itops-skill-icon"
+            />
+            <div class="skill-text-box">
+              <h4 class="skill-title">IT Operations</h4>
+              <p class="skill-text">
+                Equip your IT team with the latest cloud skills and security
+                certifications for optimal performance.
+              </p>
+            </div>
+            <a class="skill-cta" href="#">Discover More</a>
+          </div>
+
+          <div class="skill">
+            <img
+              class="skill-icon"
+              src="/img/key-skills/data-science-icon.svg"
+              alt="data-skill-icon"
+            />
+            <div class="skill-text-box">
+              <h4 class="skill-title">Data Science</h4>
+              <p class="skill-text">
+                Unlock data-driven insights and make informed business decisions
+                with comprehensive data science training.
+              </p>
+            </div>
+            <a class="skill-cta" href="#">Discover More</a>
+          </div>
+
+          <div class="skill">
+            <img
+              class="skill-icon"
+              src="/img/key-skills/leadership-icon.svg"
+              alt="leadrship-skill-icon"
+            />
+            <div class="skill-text-box">
+              <h4 class="skill-title">Leaders & Managers</h4>
+              <p class="skill-text">
+                Develop exceptional leaders capable of driving organizational
+                change and achieving business goals.
+              </p>
+            </div>
+            <a class="skill-cta" href="#">Discover More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="section-pricing" id="plans">
+      <div class="page-container more-sides-padding">
+        <div class="headers-container more-margin-btm">
+          <h2 class="prime-header">Invest in Your Team's Growth</h2>
+          <h3 class="sub-header">
+            Choose the plan that aligns with your organization's goals.
+          </h3>
+        </div>
+
+        <div class="pricings-container">
+          <div class="pricing-full-container-growth">
+            <div class="growth-plan pricing-box">
+              <div class="pricing-headers">
+                <h4 class="pricing-title">Growth</h4>
+                <h4 class="pricing-subtitle">
+                  Unlock Team Potential: In-depth Training Solutions.
+                </h4>
+              </div>
+
+              <div class="payments">
+                <div class="payment-subs">
+                  <p class="title-subs">Subscription:</p>
+                  <div class="num-subs-box">
+                    <span>$</span>
+                    <div class="price-subs">
+                      69
+                      <p class="usd">
+                        USD <span class="per-month-user">per month</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="payment-one-time">
+                  <p class="title-subs">One-time payment:</p>
+                  <div class="num-subs-box">
+                    <span>$</span>
+                    <div class="price-subs">
+                      999
+                      <p class="usd">USD</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a class="cta-pricing-growth cta-pricing" href="#"
+                >Unlock Your Team's Full Potential</a
+              >
+            </div>
+
+            <div class="pricing-features">
+              <div class="pricing-feature-box" id="g-feature1">
+                <a class="btns-pricing-feature" href="#g-feature1">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="library"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature1"
+                  >Deep Dive Courses & Tracks.</a
+                >
+                <div class="pricing-feature-content">
+                  Dive deep into a vast collection of courses, meticulously
+                  curated with specialized learning paths to hone your skills in
+                  specific industry domains.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature2">
+                <a class="btns-pricing-feature" href="#g-feature2">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="analytics"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature2"
+                  >Actionable Analytics & Insights.</a
+                >
+                <div class="pricing-feature-content">
+                  Gain a comprehensive understanding of your learning progress
+                  with detailed analytics that track your performance and
+                  identify areas for improvement.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature3">
+                <a class="btns-pricing-feature" href="#g-feaure3">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="accessibility"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature3"
+                  >Tailored learning for success.</a
+                >
+                <div class="pricing-feature-content">
+                  Imagine personalized learning paths that upskill your team for
+                  specific goals, driving both employee growth and business
+                  wins.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature4">
+                <a class="btns-pricing-feature" href="#g-feaure4">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="people-circle"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature4"
+                  >Expert Support, Personalized.</a
+                >
+                <div class="pricing-feature-content">
+                  Craft your ideal learning experience with customizable
+                  pathways tailored to address your specific needs and achieve
+                  your organization's strategic objectives.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature5">
+                <a class="btns-pricing-feature" href="#g-feaure5">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="cloud-offline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature4"
+                  >Download & Learn Offline.</a
+                >
+                <div class="pricing-feature-content">
+                  Learn anytime, anywhere with the flexibility to download
+                  course materials for uninterrupted access, even when
+                  disconnected from the internet.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-full-container-starter">
+            <div class="starter-plan pricing-box">
+              <div class="pricing-headers">
+                <h4 class="pricing-title">Startup</h4>
+                <p class="pricing-subtitle">
+                  Supercharge Your Team: Ideal for Startups & SMBs.
+                </p>
+              </div>
+
+              <div class="payments">
+                <div class="payment-subs">
+                  <p class="title-subs">Subscription:</p>
+                  <div class="num-subs-box">
+                    <span>$</span>
+                    <div class="price-subs">
+                      19
+                      <p class="usd">
+                        USD <span class="per-month-user">per month</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="payment-one-time">
+                  <p class="title-subs">One-time payment:</p>
+                  <div class="num-subs-box">
+                    <span>$</span>
+                    <div class="price-subs">
+                      399
+                      <p class="usd">USD</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a class="cta-pricing-growth cta-pricing" href="#"
+                >Build Your Business with Essential Skills</a
+              >
+            </div>
+
+            <div class="pricing-features">
+              <div class="pricing-feature-box" id="g-feature6">
+                <a class="btns-pricing-feature" href="#g-feaure6">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="barbell"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature6"
+                  >Foundational Skills Training.</a
+                >
+                <div class="pricing-feature-content">
+                  This refers to core learning modules that provide the
+                  essential knowledge and abilities needed for a particular role
+                  or area of expertise. These modules act as the building blocks
+                  for further development.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature7">
+                <a class="btns-pricing-feature" href="#g-feaure7">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="file-tray-full"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature7"
+                  >Track & Certify Progress.</a
+                >
+                <div class="pricing-feature-content">
+                  This feature allows learners to monitor their learning
+                  journey. They can track their completion of modules, assess
+                  their understanding through quizzes or assignments, and
+                  potentially earn certificates upon successful completion of
+                  the program.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature8">
+                <a class="btns-pricing-feature" href="#g-feaure8">
+                  <ion-icon class="pricing-feature-icon" name="mail"></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature8"
+                  >Limited Email Support Only.</a
+                >
+                <div class="pricing-feature-content">
+                  This signifies that the learning platform offers email as the
+                  primary method for customer support. Learners can pose
+                  questions or seek clarification through email, but options
+                  like live chat or phone support might be unavailable.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature9">
+                <a class="btns-pricing-feature" href="#g-feaure9">
+                  <ion-icon
+                    class="pricing-feature-icon"
+                    name="phone-portrait"
+                  ></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature9"
+                  >Mobile-Friendly Learning.</a
+                >
+                <div class="pricing-feature-content">
+                  This ensures the learning program is optimized for access on
+                  mobile devices like smartphones and tablets. Learners can
+                  access the modules, track progress, and potentially complete
+                  assessments while on-the-go, offering greater flexibility for
+                  busy schedules.
+                </div>
+              </div>
+
+              <div class="pricing-feature-box" id="g-feature10">
+                <a class="btns-pricing-feature" href="#g-feaure10">
+                  <ion-icon class="pricing-feature-icon" name="body"></ion-icon>
+                  <ion-icon
+                    class="open-arrow-icon"
+                    name="chevron-down"
+                  ></ion-icon>
+                  <ion-icon
+                    class="close-arrow-icon"
+                    name="chevron-up"
+                  ></ion-icon>
+                </a>
+                <a class="feature-text" href="#g-feature10"
+                  >Self-Paced Learning.</a
+                >
+                <div class="pricing-feature-content">
+                  This allows learners to progress through the training
+                  materials at their own speed. They can complete modules,
+                  revisit sections for review, and adjust their learning
+                  schedule based on their availability and needs.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CTA -->
+    <section class="section-cta" id="start-here">
+      <div class="page-container">
+        <div class="cta-flex">
+          <div class="headers-container no-margin-btm">
+            <h2 class="prime-header color-white">
+              Unlock Your Team's Hidden Potential
+            </h2>
+            <h3 class="sub-header color-white">
+              Discover the ideal learning solution for your organization.
+            </h3>
+          </div>
+          <div>
+            <a class="demo" href="#">Request a demo</a>
+          </div>
+          <div class="small-team">
+            <p>Smaller team? See our Team Plan in action.</p>
+            <a href="#">Get a 14-day free preview.</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION FOOTER -->
+    <section class="section-footer">
+      <footer class="footer-container">
+        <div class="footer-row">
+          <p class="footer-header">Company</p>
+          <ul class="footer-links-list">
+            <li><a class="footer-link" href="#">Contant Us</a></li>
+            <li><a class="footer-link" href="#">About Us</a></li>
+            <li><a class="footer-link" href="#">Help Center</a></li>
+            <li>
+              <a class="footer-link" href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-row">
+          <p class="footer-header">Sitemap</p>
+          <ul class="footer-links-list">
+            <li><a class="footer-link" href="#">Business & Marketing</a></li>
+            <li><a class="footer-link" href="#">Design & Creativity</a></li>
+            <li>
+              <a class="footer-link" href="#">Technology & Development</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Personal Growth & Lifestyle</a>
+            </li>
+            <li>
+              <a class="footer-link login-footer" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-row last-footer-row">
+          <p class="footer-header">Stay Inspired</p>
+          <div></div>
+          <div class="social-icons">
+            <a class="footer-icon-lnk" href="#">
+              <ion-icon
+                class="footer-icon"
+                name="logo-facebook"
+                size="large"
+              ></ion-icon
+            ></a>
+
+            <a class="footer-icon-lnk" href="#">
+              <ion-icon
+                class="footer-icon"
+                name="logo-linkedin"
+                size="large"
+              ></ion-icon
+            ></a>
+
+            <a class="footer-icon-lnk" href="#">
+              <ion-icon
+                class="footer-icon"
+                name="logo-pinterest"
+                size="large"
+              ></ion-icon
+            ></a>
+
+            <a class="footer-icon-lnk" href="#">
+              <ion-icon
+                class="footer-icon"
+                name="logo-github"
+                size="large"
+              ></ion-icon
+            ></a>
+          </div>
+          <a class="logo-footer-container" href="#">
+            <img
+              class="logo-footer-img"
+              src="/img/footer/learnify-footer.png"
+              alt="learnify-logo"
+            />
+            <p class="header-footer-logo">Explore Uncharted Skills</p>
+          </a>
+          <p class="copyright">&copy; 2024 Learnify, Inc.</p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="script.js"></script>
+  </body>
+</html>

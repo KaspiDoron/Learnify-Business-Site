@@ -1,0 +1,133 @@
+/* 
+#FFF * SYSTEMS: * #FFF
+
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Fonts: "Quicksand" "Merriweather" "Dosis" "Poppins"
+
+- Font weights:
+Default: 400
+Medium: 
+Semi-bold: 600
+Bold: 700 900
+
+- Line hieght:
+Default: 1
+Small: 
+Medium: 1.2
+Large: 
+Pragraph default: 
+
+- Letter spacing:
+
+--- 02 COLORS 
+#effafc #def9fc #c5f6fa #99e9f2 #66d9e8 #3bc9db #22b8cf #15aabf #1098ad #0c8599 #0b7285 #06333b #05252b
+- Primary: #0c8599
+- Tints: 
+- Shades: 
+- Accents:
+- Grays: #b9cdcf
+
+--- 03 SACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- 04 SHADOWS
+  box-shadow: 
+
+--- 05 BORDER RADIUS
+Default: 
+Medium: 
+
+--- 06 WHITESPACE
+
+*/
+
+/*****************************************************************************************/
+/* AUTO RESAT */
+/*****************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Percentage of user's browser font-size setting
+  10px / 16 = 0.625 = 62.5% */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1;
+  font-weight: 600;
+  color: #05252b;
+}
+
+.page-container {
+  margin: 0 auto;
+  padding: 8rem 30rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/*****************************************************************************************/
+/* REUSABLE COMPONENTS */
+/*****************************************************************************************/
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: inherit;
+}
+
+.headers-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.prime-header {
+  font-family: "Merriweather", sans-serif;
+  font-size: 3.6rem;
+  color: inherit;
+  margin: 0 auto;
+  color: #05252b;
+}
+
+.sub-header {
+  font-family: "Dosis", sans-serif;
+  font-size: 2.4rem;
+  color: inherit;
+  margin: 0 auto;
+  font-weight: 600;
+  color: #06333b;
+}
+
+/*****************************************************************************************/
+/* HELPER CLASSES */
+/*****************************************************************************************/
+.less-topBottomPadding-container {
+  padding: 3.2rem 30rem;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.more-sides-padding {
+  padding: 8rem 30rem;
+}
+
+.no-margin-btm {
+  margin-bottom: 0;
+}
+
+.more-margin-btm {
+  margin-bottom: 6.4rem;
+}
